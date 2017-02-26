@@ -1,0 +1,13 @@
+﻿@using Orchard.ContentManagement
+@using Orchard.MediaLibrary.Models
+@{
+    DocumentPart documentPart = Model.ContentPart;
+    var mediaPart = ((ContentItem)Model.ContentItem).As<MediaPart>();
+ }
+
+<a href="@mediaPart.MediaUrl">@mediaPart.Title</a>
+@if (mediaPart.Caption.Any())
+{
+    <p class="caption">@mediaPart.Caption</p>
+}
+                                                     

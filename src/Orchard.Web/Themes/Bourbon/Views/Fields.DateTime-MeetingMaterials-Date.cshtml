@@ -1,0 +1,16 @@
+﻿@using Orchard.Utility.Extensions;
+
+@{
+    string name = Model.ContentField.DisplayName;
+    int meetingMaterialsId = Model.ContentItem.Id;
+}
+<button class="usa-button-unstyled" aria-expanded="false" aria-controls="collapsible-@meetingMaterialsId" >
+
+        @if (Model.Model.Editor.ShowDate)
+        {<text>@Display.DateTime(DateTimeUtc: Model.ContentField.DateTime, CustomFormat: T("MMMM d, yyyy"))</text>} @if (Model.Model.Editor.ShowTime)
+        {<text>@Model.Model.Editor.Time</text>}
+
+</button>
+<span class="homeonly">@if (Model.Model.Editor.ShowDate)
+{<text>@Display.DateTime(DateTimeUtc: Model.ContentField.DateTime, CustomFormat: T("MMMM dd, yyyy"))</text>} @if (Model.Model.Editor.ShowTime)
+{<text>@Model.Model.Editor.Time</text>}</span>

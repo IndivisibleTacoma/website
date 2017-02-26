@@ -1,0 +1,84 @@
+
+ul, ol {
+  margin: {
+    top: 1em;
+    bottom: 1em;
+  }
+
+  li {
+    line-height: $base-line-height;
+    margin: {
+      top: 0;
+      bottom: 0 ;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  + ul,
+  + ol {
+    margin: {
+      top: 0;
+      bottom:1em;
+    }
+  }
+} 
+
+ul, ol {
+  padding-left: 40px;
+  display: block;
+
+  li:after {
+    content: "";
+    display: block;
+    margin-bottom: 0;
+  }
+}
+ul {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: decimal;
+}
+ul li {
+  display: list-item; 
+}
+
+ol li {
+  display: list-item;
+  counter-increment: table-ol;
+}
+
+li {
+  margin:0;
+}
+ul.menu-main-menu{
+    display:inline;  
+}
+// Unstyled lists
+
+.usa-unstyled-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    display: list-item;
+    margin: 0;
+
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+}
+div.zone > ul.comments{
+    padding-left:0;
+}
+ul.comments{
+    list-style:none;
+    list-style-type: none;
+}

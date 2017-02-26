@@ -1,0 +1,26 @@
+﻿@using Orchard.ContentManagement
+@using Orchard.MediaLibrary.Fields
+@using Orchard.Utility.Extensions;
+
+@{
+    var field = (MediaLibraryPickerField) Model.ContentField;
+    string name = field.DisplayName;
+    var contents = field.MediaParts;
+    int meetingMaterialsId = Model.ContentItem.Id;
+}
+<div id="collapsible-@meetingMaterialsId" aria-hidden="true" class="usa-accordion-content doclist">
+    <section class="media-library-picker-field media-library-picker-field-@name.HtmlClassify()">
+        <h3>Documents</h3>
+        <ul>
+            @foreach (var content in contents)
+            {
+                <li>
+                    @Display(BuildDisplay(content, "Summary"))
+                </li>
+            }
+        </ul>
+       
+    </section>
+</div>
+
+

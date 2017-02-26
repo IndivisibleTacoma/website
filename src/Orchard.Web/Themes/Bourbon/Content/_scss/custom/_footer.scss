@@ -1,0 +1,46 @@
+﻿#footer_wrapper{
+    background-color: $section-base-bottom;
+    border-top: $base-border;
+}
+#footer{
+	padding-top:20px;
+    padding-bottom:20px;
+     color: $section-base-bottom-text;
+    p, h1, h2, h3, h4{
+        color: $section-base-bottom-text;
+    } 
+    a{
+        color:$occ-orange;
+    }
+    .copyright{
+        clear:both;
+        padding-top:1em;
+    }
+    input{
+        width:280px;
+        margin-right:20px;
+    }
+    form button[type="submit"], form input[type="submit"] {
+        display: inline;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color:$alt-button-color;
+    }
+    form button[type="submit"]:hover, form input[type="submit"]:hover {
+        background-color:$alt-button-hover;
+    }
+    h1.footertitle, label.footertitle{
+        text-transform:uppercase;
+        font-size:24px;
+        font-family:$font-sans;
+        font-weight:normal;
+        margin-top:0;
+        margin-bottom:0;
+    }
+
+    @media screen and (max-width: $medium-screen) {
+        h1.footertitle{
+            margin-top:20px;
+        }
+    }
+}

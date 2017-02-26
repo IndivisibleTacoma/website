@@ -1,0 +1,29 @@
+﻿@{
+    // Model is Model.Menu from the layout (Layout.Menu)
+    var tag = Tag(Model, "ul");
+
+    var items = (IList<dynamic>)Enumerable.Cast<dynamic>(Model.Items);
+
+    if (items.Any()) {
+        items[0].Classes.Add("first");
+        items[items.Count - 1].Classes.Add("last");
+    }    
+}
+<div id="google_translate_element"></div>
+<nav>
+    <a href="@Href("~/")" class="navbar-brand">
+       
+         <img class="logo" src="/Themes/Bourbon/Content/img/OneCenterCity_logo_c_tagline.png" alt="OneCenterCityLogo" />
+        
+         <img class="logoMobile" src="/Themes/Bourbon/Content/img/OneCenterCity_logo_c_tagline_m.svg" alt="OneCenterCityLogo" />
+
+</a>
+    @tag.StartElement
+        @* see MenuItem shape template *@
+        @DisplayChildren(Model)
+    @tag.EndElement
+    
+    <button class="c-hamburger c-hamburger--htx" id="tgl">
+        <span>toggle menu</span>
+    </button>
+</nav>

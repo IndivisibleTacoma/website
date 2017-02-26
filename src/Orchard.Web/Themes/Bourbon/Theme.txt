@@ -1,0 +1,9 @@
+Name: Bourbon
+Author: Justin Haight
+Website: http://enviroissues.com
+Description: Description for the theme
+Version: 1.0
+BaseTheme: TheThemeMachine
+Zones: Style, Translate, Header, Navigation, Featured, BeforeMain, Messages, BeforeContent, Content, Library, BootOne, BootTwo, BootThree, LeftHalf, RightHalf, LeftOneThird, RightTwoThirds, LeftOneThirdTile, RightTwoThirdsTile, LeftTwoThirds, RightOneThird, AfterContent, TripleFirst, TripleSecond, TripleThird, QuadFirst, QuadSecond, QuadThird, QuadFourth, FooterQuadFirst, FooterQuadSecond, FooterQuadThird, FooterQuadFourth, FooterFirstHalf, FooterSecondHalf, Footer
+# todo: provide tags
+# Tags: Classic, Serif

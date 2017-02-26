@@ -1,0 +1,174 @@
+﻿@import 'grid-settings';
+@import 'variables';
+
+@mixin breadcrumb_items(){
+    content: " ";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent; /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+    position: absolute;
+	top: 50%;
+	margin-top: -50px;
+    left: 100%;
+}
+@mixin border-radius-vendor($radius){
+    -webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+#search{
+    input{
+        margin-bottom:10px;
+    }
+}
+input, input[type="text"], input[type="email"], input[type="password"], input[type="url"], input[type="tel"], input[type="number"], input[type="search"], input[type="file"], input[type="date"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], textarea, select{
+    border: 1px solid #62C196;
+    }
+ul.menu-main-menu{ 
+   margin:0;
+   list-style-type:none; 
+   padding-left:0;
+   li{
+       display:inline-block;
+       line-height:2em;
+       margin-right:0;
+      
+       &:last-child{
+           margin-right:0;
+       }
+       &.current, &:hover{
+           
+        & > a{
+            color:$link-color;
+            text-decoration:underline;
+        }
+       }
+       a{
+            font-weight: normal;
+            font-family:$font-sans;
+            color:$base-text;
+            &:hover{
+                text-decoration:none;
+            }
+       }
+   }
+}
+@media screen and (min-width: $large-screen) {
+    ul.menu-main-menu{
+         position: relative;
+         top: 58px;
+         float:right;
+         & > li > a{
+             padding: 0 0 0 26px;
+         }
+     }
+}
+@media screen and (max-width: $large-screen) {
+    .search_translate{
+        display:none;
+    }
+}
+@media screen and (min-width: $medium-screen) and (max-width: $large-screen){
+    ul.menu-main-menu {
+        display:block;
+        float:none;
+        margin-top:20px;
+            & > li > a{
+            padding: 0 12px 0 0;
+        }
+    }
+}
+@media screen and (min-width: $medium-screen) {
+     ul.menu-main-menu {
+            & > li > a:hover{
+            text-decoration:underline;
+        }
+    }
+    .logo{
+        width:173px;
+        vertical-align: middle;
+    }
+    .logoMobile{
+        display:none;
+    }
+    button#tgl{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width: $medium-screen) {
+    .logoMobile{
+        max-width:100px;
+    }
+    .logo{
+        display:none;
+    }
+
+    button#tgl{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+     ul.menu-main-menu{
+         margin-top:15px;
+         padding-left:0;
+         display:none;
+         clear:both;
+         width:100%;
+         & > li{
+            width:100%;
+            display:block;
+            margin-top: 0;
+            margin-bottom: 10px;
+            line-height:1.5;
+            background-color: $color-gray-lightest;
+            &.last{
+                margin-bottom:0;
+            }
+            &.first{
+                margin-top:20px;;
+            }
+            &:after{
+                margin-bottom: 0.25em;
+            }
+            & > a{
+                display: inline-block;
+                width:100%;
+                
+                padding:5px;
+                text-decoration:none;
+               
+                &:hover{
+                   
+                    text-decoration:none;
+                   
+                }
+            }
+            &.current > a {
+               
+            }
+         }
+     }
+     
+ }
+
+/*Header BG*/
+.navbar-wrapper{
+    background-color: $section-base-top;
+    border-bottom: $base-border;
+    margin-bottom:14px;
+}
+a.navbar-brand:hover{
+    text-decoration:none;
+}
+
+.zone-content{
+    clear:both;
+}
+

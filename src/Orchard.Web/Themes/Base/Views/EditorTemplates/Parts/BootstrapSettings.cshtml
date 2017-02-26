@@ -1,0 +1,18 @@
+@model TheBootstrapMachine.Models.BootstrapSettingsPart
+
+<fieldset>
+    <legend>@T("Bootstrap")</legend>
+
+    <div>
+        @Html.LabelFor(m => m.CustomHeaderContent, T("Custom header content"))
+        @Html.TextAreaFor(m => m.CustomHeaderContent, 50, 60, null)
+        <span class="hint">@T("Define the raw HTML content to inject in the template's header, like stylesheets and scripts.")</span>
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.CustomFooterContent, T("Custom footer content"))
+        @Html.TextAreaFor(m => m.CustomFooterContent, 50, 60, null)
+        <span class="hint">@T("Define the raw HTML content to inject in the template's footer, like scripts.")</span>
+    </div>
+
+</fieldset>

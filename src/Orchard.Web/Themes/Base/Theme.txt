@@ -1,0 +1,9 @@
+Name: Base
+Author: The Orchard Team
+Website: http://www.orchardproject.net
+Description: Description for the theme
+Version: 1.0
+BaseTheme: PJS.Bootstrap
+Zones: Translate, Header, Navigation, Featured, BeforeMain, Messages, BeforeContent, Content, LeftHalf, RightHalf, LeftOneThird, RightTwoThirds, LeftTwoThirds, RightOneThird, AfterContent, TripleFirst, TripleSecond, TripleThird, QuadFirst, QuadSecond, QuadThird, QuadFourth, FooterQuadFirst, FooterQuadSecond, FooterQuadThird, FooterQuadFourth, Footer
+# todo: provide tags
+# Tags: Classic, Serif

@@ -1,0 +1,34 @@
+﻿
+* { box-sizing: border-box; }
+.grid{
+     max-width: 960px;
+}
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 306px;
+  float: left;
+  margin-bottom:20px; 
+  p:first-child{
+      margin-top:20px;
+  }
+}
+
+
+.grid-item--height1 { height: 607px; }
+.grid-item--height2 { height: 375px; }
+.grid-item--height3 { height: 312px; }
+.grid-item--height4 { height: 246px; }
+
+@media screen and (max-width: $large-screen) {
+    .grid-item {
+      width: 306px;
+    }
+}

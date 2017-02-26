@@ -1,0 +1,47 @@
+﻿@import 'variables';
+#translate_wrapper{
+    background-color: $translate-background-color;
+    color: $translate-text-color;
+    @media screen and (min-width: $large-screen) {
+        max-height:31px;    
+    }
+}
+article.widget-translate{
+    display:inline-block;
+     @media screen and (max-width: $large-screen) {
+        p{
+            margin-top:8px;
+        }  
+    }
+     @media screen and (min-width: $large-screen) {
+        p{
+            margin-top:2px;
+        }  
+    }
+    
+    &:nth-child(2){
+        float:right;
+    }
+    #google_translate_element{
+        float:right;
+        margin-top:1px;
+    }
+    .goog-te-gadget .goog-te-combo {
+        margin:0;
+    }
+    select{
+        padding: .5rem .25em;
+    }
+    .goog-te-gadget, .goog-logo-link{
+        color: $translate-text-color!important;
+    }
+
+    
+}
+
+.widget-header, .widget-translate{
+    p{
+        margin:0;
+    }
+}
+
