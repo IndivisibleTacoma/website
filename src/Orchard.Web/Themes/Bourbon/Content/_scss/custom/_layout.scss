@@ -16,6 +16,7 @@
 #header,
 #layout-before-main, 
 #layout-content, 
+#layout-featured,
 #next,
 #footer, 
 .zone-navigation, 
@@ -67,7 +68,9 @@
 #footer-quad-fourth {
     @extend .usa-width-one-fourth;
 }
-
+#layout-navigation{
+    padding-top:3rem;
+}
 .widget-content{
 	clear:both;
 }

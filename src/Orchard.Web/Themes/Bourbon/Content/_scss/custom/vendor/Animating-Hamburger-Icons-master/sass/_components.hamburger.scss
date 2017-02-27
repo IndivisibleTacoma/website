@@ -108,7 +108,7 @@ $button-transistion-duration: 0.3s;     // The transition duration
  */
 
 .c-hamburger--htx {
-  background-color:$occ-teal;
+  background-color:$it-blue;
 }
 
 .c-hamburger--htx span {
@@ -132,7 +132,7 @@ $button-transistion-duration: 0.3s;     // The transition duration
 /* active state, i.e. menu open */
 
 .c-hamburger--htx.is-active, .c-hamburger--htx:active, .c-hamburger--htx:hover {
-  background-color: $occ-teal;
+  background-color: $it-blue;
 }
 
 .c-hamburger--htx.is-active span {

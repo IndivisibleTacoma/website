@@ -10,8 +10,8 @@
 @import 'custom/grid-settings';
 @import 'core/defaults';
 //@import 'custom/variables'; 
-@import 'core/base'; 
-@import 'core/grid'; 
+@import 'core/base';  
+@import 'core/grid';   
 @import 'core/utilities';
   
 
@@ -46,7 +46,7 @@
 @import 'components/skipnav';
 @import 'components/disclaimer';
 @import 'components/sidenav'; 
-@import 'components/footer';
+//@import 'components/footer'; 
 //@import 'components/forms'; 
 @import 'custom/forms'; 
 @import 'components/search';

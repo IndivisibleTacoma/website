@@ -546,17 +546,6 @@
     <Content Include="Views\Fields.Common.Text-FAQ-Question.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Widget-Name-background.cshtml">
-      <SubType>Code</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Widget-Name-feedback.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Widget-Name-ridingthebus.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Content-BlogPost.Detail.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -574,35 +563,115 @@
     </None>
     <Content Include="Content\_scss\custom\_masonry.scss" />
     <Content Include="Content\img\manifest.json" />
-    <Content Include="Views\Parts.Common.Body-FAQ.cshtml" />
-    <Content Include="Views\Parts.Common.Body-60.cshtml" />
     <Content Include="Views\Content.cshtml" />
-    <Content Include="Views\Parts.Common.Body-61.cshtml" />
-    <Content Include="Views\Parts.Common.Body-62.cshtml" />
-    <Content Include="Views\Parts.Common.Body-64.cshtml" />
-    <Content Include="Views\Parts.Common.Body-69.cshtml" />
-    <Content Include="Views\Parts.Common.Body-70.cshtml" />
-    <Content Include="Views\Parts.Common.Body-71.cshtml" />
-    <Content Include="Views\Parts.Common.Body-72.cshtml" />
     <Content Include="Views\Fields.Common.Text-Meeting-Time.cshtml" />
     <Content Include="Views\Fields.DateTime-Meeting-Date.cshtml" />
     <Content Include="Views\Fields.Common.Text-Meeting-Address.cshtml" />
-    <Content Include="Views\Parts.Common.Body-Meeting.cshtml" />
     <Content Include="Views\Fields.Link-Meeting-Location.cshtml" />
     <Content Include="Views\Parts.Document.Summary-Document.cshtml" />
     <Content Include="Views\Fields.DateTime-MeetingMaterials-Date.cshtml" />
-    <Content Include="Views\Widget-Name-meetingmaterials.cshtml" />
     <Content Include="Views\Fields.MediaLibraryPicker-MeetingMaterials-MeetingMaterialsContent-MediaMaterialsDocuments.cshtml" />
     <Content Include="Views\Fields.Common.Text-MeetingMaterials-MeetingMaterialsContent-MeetingMaterialsNotes.cshtml" />
     <Content Include="Views\Fields.MediaLibraryPicker-Resource-ResourceDocument.cshtml" />
-    <Content Include="Views\Widget-Name-mediakit.cshtml" />
-    <Content Include="Views\Widget-Name-upcomingeventshome.cshtml" />
-    <Content Include="Views\Widget-Name-pastmeetingmaterialshome.cshtml" />
-    <Content Include="Views\Widget-Name-otherdocs.cshtml" />
-    <Content Include="Views\Widget-Name-plandocs.cshtml" />
-    <Content Include="Views\Widget-Name-advisorymats.cshtml" />
-    <Content Include="Views\Widget-Name-resguide.cshtml" />
-    <Content Include="Views\Parts.Common.Body-65.cshtml" />
+    <Content Include="Content\fonts\GothamCondensed-Bold.eot" />
+    <Content Include="Content\fonts\GothamCondensed-Bold.ttf" />
+    <Content Include="Content\fonts\GothamCondensed-Bold.woff" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Heavy.eot" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Heavy.ttf" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Heavy.woff" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Light.eot" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Light.ttf" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Light.woff" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Medium.eot" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Medium.ttf" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Medium.woff" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Regular.eot" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Regular.ttf" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Regular.woff" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Semibold.eot" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Semibold.ttf" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Semibold.woff" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Thin.eot" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Thin.ttf" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Thin.woff" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Ultralight.eot" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Ultralight.ttf" />
+    <Content Include="Content\fonts\SanFranciscoDisplay-Ultralight.woff" />
+    <Content Include="Content\fonts\SanFranciscoText-Heavy.eot" />
+    <Content Include="Content\fonts\SanFranciscoText-Heavy.ttf" />
+    <Content Include="Content\fonts\SanFranciscoText-Heavy.woff" />
+    <Content Include="Content\fonts\SanFranciscoText-HeavyItalic.eot" />
+    <Content Include="Content\fonts\SanFranciscoText-HeavyItalic.ttf" />
+    <Content Include="Content\fonts\SanFranciscoText-HeavyItalic.woff" />
+    <Content Include="Content\fonts\SanFranciscoText-Italic.eot" />
+    <Content Include="Content\fonts\SanFranciscoText-Italic.ttf" />
+    <Content Include="Content\fonts\SanFranciscoText-Italic.woff" />
+    <Content Include="Content\fonts\SanFranciscoText-Light.eot" />
+    <Content Include="Content\fonts\SanFranciscoText-Light.ttf" />
+    <Content Include="Content\fonts\SanFranciscoText-Light.woff" />
+    <Content Include="Content\fonts\SanFranciscoText-LightItalic.eot" />
+    <Content Include="Content\fonts\SanFranciscoText-LightItalic.ttf" />
+    <Content Include="Content\fonts\SanFranciscoText-LightItalic.woff" />
+    <Content Include="Content\fonts\SanFranciscoText-Medium.eot" />
+    <Content Include="Content\fonts\SanFranciscoText-Medium.ttf" />
+    <Content Include="Content\fonts\SanFranciscoText-Medium.woff" />
+    <Content Include="Content\fonts\SanFranciscoText-Regular.eot" />
+    <Content Include="Content\fonts\SanFranciscoText-Regular.ttf" />
+    <Content Include="Content\fonts\SanFranciscoText-Regular.woff" />
+    <Content Include="Content\fonts\SanFranciscoText-Semibold.eot" />
+    <Content Include="Content\fonts\SanFranciscoText-Semibold.ttf" />
+    <Content Include="Content\fonts\SanFranciscoText-Semibold.woff" />
+    <Content Include="Content\fonts\SanFranciscoText-Thin.eot" />
+    <Content Include="Content\fonts\SanFranciscoText-Thin.ttf" />
+    <Content Include="Content\fonts\SanFranciscoText-Thin.woff" />
+    <Content Include="Content\fonts\Trenda-Black.eot" />
+    <Content Include="Content\fonts\Trenda-Black.ttf" />
+    <Content Include="Content\fonts\Trenda-Black.woff" />
+    <Content Include="Content\fonts\Trenda-BlackIt.eot" />
+    <Content Include="Content\fonts\Trenda-BlackIt.ttf" />
+    <Content Include="Content\fonts\Trenda-BlackIt.woff" />
+    <Content Include="Content\fonts\Trenda-Bold.eot" />
+    <Content Include="Content\fonts\Trenda-Bold.ttf" />
+    <Content Include="Content\fonts\Trenda-Bold.woff" />
+    <Content Include="Content\fonts\Trenda-BoldIt.eot" />
+    <Content Include="Content\fonts\Trenda-BoldIt.ttf" />
+    <Content Include="Content\fonts\Trenda-BoldIt.woff" />
+    <Content Include="Content\fonts\Trenda-ExtraLight.eot" />
+    <Content Include="Content\fonts\Trenda-ExtraLight.ttf" />
+    <Content Include="Content\fonts\Trenda-ExtraLight.woff" />
+    <Content Include="Content\fonts\Trenda-ExtraLightIt.eot" />
+    <Content Include="Content\fonts\Trenda-ExtraLightIt.ttf" />
+    <Content Include="Content\fonts\Trenda-ExtraLightIt.woff" />
+    <Content Include="Content\fonts\Trenda-Heavy.eot" />
+    <Content Include="Content\fonts\Trenda-Heavy.ttf" />
+    <Content Include="Content\fonts\Trenda-Heavy.woff" />
+    <Content Include="Content\fonts\Trenda-HeavyIt.eot" />
+    <Content Include="Content\fonts\Trenda-HeavyIt.ttf" />
+    <Content Include="Content\fonts\Trenda-HeavyIt.woff" />
+    <Content Include="Content\fonts\Trenda-Light.eot" />
+    <Content Include="Content\fonts\Trenda-Light.ttf" />
+    <Content Include="Content\fonts\Trenda-Light.woff" />
+    <Content Include="Content\fonts\Trenda-LightIt.eot" />
+    <Content Include="Content\fonts\Trenda-LightIt.ttf" />
+    <Content Include="Content\fonts\Trenda-LightIt.woff" />
+    <Content Include="Content\fonts\Trenda-Regular.eot" />
+    <Content Include="Content\fonts\Trenda-Regular.ttf" />
+    <Content Include="Content\fonts\Trenda-Regular.woff" />
+    <Content Include="Content\fonts\Trenda-RegularIt.eot" />
+    <Content Include="Content\fonts\Trenda-RegularIt.ttf" />
+    <Content Include="Content\fonts\Trenda-RegularIt.woff" />
+    <Content Include="Content\fonts\Trenda-Semibold.eot" />
+    <Content Include="Content\fonts\Trenda-Semibold.ttf" />
+    <Content Include="Content\fonts\Trenda-Semibold.woff" />
+    <Content Include="Content\fonts\Trenda-SemiboldIt.eot" />
+    <Content Include="Content\fonts\Trenda-SemiboldIt.ttf" />
+    <Content Include="Content\fonts\Trenda-SemiboldIt.woff" />
+    <Content Include="Content\fonts\Trenda-Thin.eot" />
+    <Content Include="Content\fonts\Trenda-Thin.ttf" />
+    <Content Include="Content\fonts\Trenda-Thin.woff" />
+    <Content Include="Content\fonts\Trenda-ThinIt.eot" />
+    <Content Include="Content\fonts\Trenda-ThinIt.ttf" />
+    <Content Include="Content\fonts\Trenda-ThinIt.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

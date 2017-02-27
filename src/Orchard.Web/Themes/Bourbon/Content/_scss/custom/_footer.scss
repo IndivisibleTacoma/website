@@ -1,4 +1,7 @@
-﻿#footer_wrapper{
+﻿@import 'variables';
+@import 'grid-settings';
+
+#footer_wrapper{
     background-color: $section-base-bottom;
     border-top: $base-border;
 }
@@ -10,14 +13,13 @@
         color: $section-base-bottom-text;
     } 
     a{
-        color:$occ-orange;
+        color:$it-blue;
     }
     .copyright{
         clear:both;
         padding-top:1em;
     }
     input{
-        width:280px;
         margin-right:20px;
     }
     form button[type="submit"], form input[type="submit"] {

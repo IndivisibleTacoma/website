@@ -9,15 +9,12 @@
         items[items.Count - 1].Classes.Add("last");
     }    
 }
-<div id="google_translate_element"></div>
+@*<div id="google_translate_element"></div>*@
 <nav>
     <a href="@Href("~/")" class="navbar-brand">
-       
-         <img class="logo" src="/Themes/Bourbon/Content/img/OneCenterCity_logo_c_tagline.png" alt="OneCenterCityLogo" />
-        
-         <img class="logoMobile" src="/Themes/Bourbon/Content/img/OneCenterCity_logo_c_tagline_m.svg" alt="OneCenterCityLogo" />
-
-</a>
+        <img src="https://indivisibletacoma.blob.core.windows.net/media/Default/images/weblogo.svg" alt="Indivisible Tacoma" />
+    </a><br />
+    <span class="tagline">Resisting the Trump/Bannon agenda in the Great Pacific Northwest!</span>
     @tag.StartElement
         @* see MenuItem shape template *@
         @DisplayChildren(Model)
