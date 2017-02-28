@@ -34,3 +34,7 @@ legend {
     font-family:$font-sans-subheading;
     text-transform:uppercase;
 }
+
+input, input[type="text"], input[type="email"], input[type="password"], input[type="url"], input[type="tel"], input[type="number"], input[type="search"], input[type="file"], input[type="date"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], textarea, select{
+    border:1px solid $it-blue;
+}

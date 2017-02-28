@@ -54,6 +54,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -672,6 +673,8 @@
     <Content Include="Content\fonts\Trenda-ThinIt.eot" />
     <Content Include="Content\fonts\Trenda-ThinIt.ttf" />
     <Content Include="Content\fonts\Trenda-ThinIt.woff" />
+    <Content Include="Views\Widget-Name-faq.cshtml" />
+    <Content Include="Views\Parts.Common.Body-FAQ.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

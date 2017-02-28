@@ -37,7 +37,9 @@ a {
     outline: 0;
   }
 }
-
+p{
+	font-family: $font-sans;
+}
 h1{
     color: $heading-color;
 }

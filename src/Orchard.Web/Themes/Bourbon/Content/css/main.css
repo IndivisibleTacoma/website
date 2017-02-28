@@ -594,9 +594,6 @@ th {
   font-weight: normal;
   font-style: italic; }
 
-p {
-  font-family: 'San Francisco Text', serif; }
-
 /*---------------------------------------------------
    OCC Theme 
 ----------------------------------------------------*/
@@ -3871,6 +3868,9 @@ a {
     box-shadow: none;
     outline: 0; }
 
+p {
+  font-family: "San Francisco Text", "Helvetica", "Arial", sans-serif; }
+
 h1 {
   color: #333; }
 
@@ -4597,9 +4597,6 @@ input[type=range]:focus::-ms-thumb {
   font-weight: normal;
   font-style: italic; }
 
-p {
-  font-family: 'San Francisco Text', serif; }
-
 /*---------------------------------------------------
    OCC Theme 
 ----------------------------------------------------*/
@@ -5183,6 +5180,9 @@ a {
     box-shadow: none;
     outline: 0; }
 
+p {
+  font-family: "San Francisco Text", "Helvetica", "Arial", sans-serif; }
+
 h1 {
   color: #333; }
 
@@ -5653,9 +5653,6 @@ ul.comments {
   src: url("fonts/Trenda-RegularIt.eot?#iefix") format("embedded-opentype"), url("fonts/Trenda-RegularIt.woff") format("woff"), url("fonts/Trenda-RegularIt.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
-
-p {
-  font-family: 'San Francisco Text', serif; }
 
 /*---------------------------------------------------
    OCC Theme 
@@ -6939,9 +6936,6 @@ article.comment h4 {
   font-weight: normal;
   font-style: italic; }
 
-p {
-  font-family: 'San Francisco Text', serif; }
-
 /*---------------------------------------------------
    OCC Theme 
 ----------------------------------------------------*/
@@ -7247,9 +7241,6 @@ html.orchard-tags article.blog-post:first-of-type > header > h1 {
   src: url("fonts/Trenda-RegularIt.eot?#iefix") format("embedded-opentype"), url("fonts/Trenda-RegularIt.woff") format("woff"), url("fonts/Trenda-RegularIt.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
-
-p {
-  font-family: 'San Francisco Text', serif; }
 
 /*---------------------------------------------------
    OCC Theme 
@@ -7613,9 +7604,6 @@ a.navbar-brand:hover {
   font-weight: normal;
   font-style: italic; }
 
-p {
-  font-family: 'San Francisco Text', serif; }
-
 /*---------------------------------------------------
    OCC Theme 
 ----------------------------------------------------*/
@@ -7932,9 +7920,6 @@ article.widget .image-gallery {
   font-weight: normal;
   font-style: italic; }
 
-p {
-  font-family: 'San Francisco Text', serif; }
-
 /*---------------------------------------------------
    OCC Theme 
 ----------------------------------------------------*/
@@ -8209,9 +8194,6 @@ article.widget-translate {
   font-weight: normal;
   font-style: italic; }
 
-p {
-  font-family: 'San Francisco Text', serif; }
-
 /*---------------------------------------------------
    OCC Theme 
 ----------------------------------------------------*/
@@ -8252,4 +8234,7 @@ legend {
   font-size: 3rem;
   font-family: "Trenda", "Helvetica", "Arial", sans-serif;
   text-transform: uppercase; }
+
+input, input[type="text"], input[type="email"], input[type="password"], input[type="url"], input[type="tel"], input[type="number"], input[type="search"], input[type="file"], input[type="date"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], textarea, select {
+  border: 1px solid #1a325d; }
 
