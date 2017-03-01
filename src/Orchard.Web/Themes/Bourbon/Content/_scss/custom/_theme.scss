@@ -35,7 +35,11 @@
 }
 }
 @media screen and (max-width:$medium-screen){
-
+    .widget-about{
+        header > h1{
+            margin-top:0;
+        }
+    }
     #fb, #tw, .desktop{
         display:none;
     }
