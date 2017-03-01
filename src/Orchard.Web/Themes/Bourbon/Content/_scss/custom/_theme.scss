@@ -1,14 +1,45 @@
 ﻿@import "../custom/variables";
 @import '../custom/grid-settings';
-.tagline{
-    color: $color-gray;
-    font-size: 14px;
-}
 
 .navbar-brand > img{
     width:320px;
 }
 
+#ind, #tac, a.navbar-brand:visited, a.navbar-brand:hover, a.navbar-brand{
+    color:$it-blue;
+}
+
+#ind{
+    font-family: $font-sans-heading;
+    text-transform:uppercase;
+    font-size:30px; 
+}
+
+#tac{
+    font-family: $font-sans-subheading;
+    text-transform:uppercase;
+    }
+
+#social_buttons{
+    span{
+        img{
+            width:35px;
+        }
+    }
+}
+
+@media screen and (min-width:$medium-screen){
+    .usa-input-grid-small {
+        float: left;
+        width: 33%;
+}
+}
+@media screen and (max-width:$medium-screen){
+
+    #fb, #tw, .desktop{
+        display:none;
+    }
+}
 @media screen and (max-width:$small-screen){
 .navbar-brand > img{
     width:260px;
@@ -52,4 +83,17 @@ input, input[type="text"], input[type="email"], input[type="password"], input[ty
 
 .widget-faq{
     margin-bottom:$grid-margins;
+}
+
+.callout{
+    overflow:auto;
+    background-color:$it-lightblue;
+    padding:$grid-margins;
+    a, a:hover, p, h1, h2, h3, legend, label{
+        color:white;
+    }
+    form button[type="submit"], form input[type="submit"] {
+        margin-top: 1rem;
+        margin-bottom: .2rem;
+    }
 }

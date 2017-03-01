@@ -69,7 +69,7 @@
     @extend .usa-width-one-fourth;
 }
 #layout-navigation{
-    padding-top:3rem;
+    padding-top:$grid-margins;
 }
 .widget-content{
 	clear:both;
@@ -121,3 +121,12 @@ html.orchard-tags article.blog-post:first-of-type {
     }
 }
 
+#layout-main-container{
+    margin-top:$grid-margins/2;
+}
+
+@media screen and (min-width:$medium-screen){
+    body{
+        padding-top:$grid-margins/2;
+    }
+}

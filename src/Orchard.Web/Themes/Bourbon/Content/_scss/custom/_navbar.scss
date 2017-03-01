@@ -19,19 +19,14 @@
     -ms-border-radius: $radius;
 	border-radius: $radius;
 }
-#ind, #tac, a.navbar-brand:visited, a.navbar-brand:hover, a.navbar-brand{
-    color:$it-blue;
-}
-#ind{
-    font-family: $font-sans-heading;
-    text-transform:uppercase;
-    font-size:30px; 
+
+.tagline{
+    color: $color-gray;
+    font-size: 14px;
+    margin-top:4px;
 }
 
-#tac{
-    font-family: $font-sans-subheading;
-    text-transform:uppercase;
-}
+
 #search{
     input{
         margin-bottom:10px;
@@ -87,9 +82,10 @@ ul.menu-main-menu{
 }
 @media screen and (min-width: $medium-screen) and (max-width: $large-screen){
     ul.menu-main-menu {
+        text-align: right;
         display:block;
         float:none;
-        margin-top:20px;
+        margin:$grid-margins/2 0;
             & > li > a{
             padding: 0 12px 0 0;
         }
@@ -115,6 +111,12 @@ ul.menu-main-menu{
 
 
 @media screen and (max-width: $medium-screen) {
+    .navbar-wrapper{
+        margin-bottom:$grid-margins/2;
+    }
+    .tagline{
+        padding-right:45px;
+    }
     .logoMobile{
         max-width:100px;
     }
@@ -124,8 +126,8 @@ ul.menu-main-menu{
 
     button#tgl{
         position: absolute;
-        right: 20px;
-        top: 20px;
+        right: $grid-margins;
+        top: $grid-margins;
     }
 
      ul.menu-main-menu{
@@ -175,7 +177,6 @@ ul.menu-main-menu{
 .navbar-wrapper{
     background-color: $section-base-top;
     border-bottom: $base-border;
-    margin-bottom:14px;
 }
 a.navbar-brand:hover{
     text-decoration:none;

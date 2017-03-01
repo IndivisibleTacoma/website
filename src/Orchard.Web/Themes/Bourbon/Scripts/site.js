@@ -32,14 +32,5 @@ $(window).resize(function () {
 
 })();
 
-$(document).ready(function () {
-    $('#library .meeting-materials > button').removeAttr("aria-expanded aria-controls");
-    $('#library .doclist').removeAttr("aria-hidden").removeClass('usa-accordion-content');
-    $('#library, .widget-meetingmaterials').find("a").attr("target", "_blank");
-    $("img:not([title])").each(function () {
-        if ($(this).attr("alt") != '') $(this).parent().attr("title", $(this).attr("alt"))
-        else $(this).parent().attr("title", $(this).attr("src"));
-    });
 
-});
 

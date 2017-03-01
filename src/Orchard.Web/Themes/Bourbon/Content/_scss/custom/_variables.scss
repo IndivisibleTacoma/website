@@ -386,6 +386,7 @@ $color-visited:              #4c2c92;
 
 $it-lightblue: #1e5ca8;
 $it-red: #d52628;
+$it-red-hover:#bd2b2d;
 $it-blue: #1a325d;
 /*header and footer backgrounds*/
 
@@ -401,8 +402,8 @@ $menu-active-text-color: #333 !default;//active menu text color
 $menu-text-color:  white !default;//menu text color
 $menu-line-color: $menu-text-color !default;//menu line color
 /*buttons*/
-$button-color: $it-blue !default;//button bg
-$button-hover: $it-blue !default;//button hover
+$button-color: $it-red !default;//button bg
+$button-hover: $it-red-hover !default;//button hover
 $alt-button-color: $it-blue !default;//button bg
 $alt-button-hover: $it-blue !default;//button hover
 $button-text: white !default;//button text color

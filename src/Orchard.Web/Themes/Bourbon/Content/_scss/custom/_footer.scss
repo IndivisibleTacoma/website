@@ -4,6 +4,7 @@
 #footer_wrapper{
     background-color: $section-base-bottom;
     border-top: $base-border;
+    margin-top:$grid-margins;
 }
 #footer{
 	padding-top:20px;
@@ -26,10 +27,10 @@
         display: inline;
         margin-top: 0;
         margin-bottom: 0;
-        background-color:$alt-button-color;
+        background-color:$button-color;
     }
     form button[type="submit"]:hover, form input[type="submit"]:hover {
-        background-color:$alt-button-hover;
+        background-color:$button-hover;
     }
     h1.footertitle, label.footertitle{
         text-transform:uppercase;

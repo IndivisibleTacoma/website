@@ -4,22 +4,23 @@
 
     var items = (IList<dynamic>)Enumerable.Cast<dynamic>(Model.Items);
 
-    if (items.Any()) {
+    if (items.Any())
+    {
         items[0].Classes.Add("first");
         items[items.Count - 1].Classes.Add("last");
-    }    
+    }
 }
 @*<div id="google_translate_element"></div>*@
 <nav>
     <a href="@Href("~/")" class="navbar-brand">
         <img src="https://indivisibletacoma.blob.core.windows.net/media/Default/images/weblogo.svg" alt="Indivisible Tacoma" />
-    </a><br />
-    <span class="tagline">Resisting the Trump/Bannon agenda in the Great Pacific Northwest!</span>
+    </a>
+    <div class="tagline">Resisting the Trump/Bannon agenda in the Great Pacific Northwest!</div>
     @tag.StartElement
-        @* see MenuItem shape template *@
-        @DisplayChildren(Model)
+    @* see MenuItem shape template *@
+    @DisplayChildren(Model)
     @tag.EndElement
-    
+
     <button class="c-hamburger c-hamburger--htx" id="tgl">
         <span>toggle menu</span>
     </button>
