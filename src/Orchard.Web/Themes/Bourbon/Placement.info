@@ -25,6 +25,7 @@
         />
     </Match>
   </Match>
+
   <Match Path="/blog">
     <Match ContentType="BlogPost" >
       <Place

@@ -3907,7 +3907,7 @@ em {
   font-family: "San Francisco Text", "Helvetica", "Arial", sans-serif; }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 400; }
 
 @media screen and (max-width: 481px) {
@@ -3982,7 +3982,7 @@ p a,
   margin-bottom: 0; }
   @media screen and (min-width: 481px) {
     .usa-display {
-      font-size: 4rem;
+      font-size: 3.5rem;
       font-weight: 400; } }
   @media screen and (min-width: 727px) {
     .usa-display {
@@ -5217,7 +5217,7 @@ em {
   font-family: "San Francisco Text", "Helvetica", "Arial", sans-serif; }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 400; }
 
 @media screen and (max-width: 481px) {
@@ -5292,7 +5292,7 @@ p a,
   margin-bottom: 0; }
   @media screen and (min-width: 481px) {
     .usa-display {
-      font-size: 4rem;
+      font-size: 3.5rem;
       font-weight: 400; } }
   @media screen and (min-width: 727px) {
     .usa-display {
@@ -7292,7 +7292,7 @@ ul.menu-main-menu {
   ul.menu-main-menu {
     float: right;
     position: relative;
-    top: -30px; }
+    top: -22px; }
     ul.menu-main-menu > li > a {
       padding: 0 0 0 26px; } }
 
@@ -8228,6 +8228,10 @@ article.widget-translate {
 #social_buttons span img {
   width: 35px; }
 
+@media screen and (min-width: 727px) {
+  .mobile {
+    display: none; } }
+
 .blog-page-title {
   margin-top: 0; }
 
@@ -8243,20 +8247,33 @@ p.tags {
   p.tags > a:before {
     content: "#"; }
 
-.blog-post-title, .blog-title-summary {
+.blog-post-title {
   margin-top: 0.66667rem;
-  font-size: 3rem; }
+  font-size: 2.5rem; }
+
+.blog-title-summary {
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+  margin-top: .2em; }
 
 .dynchard-blogs #content {
   display: none !important;
   margin: 0 !important; }
 
+@media screen and (max-width: 727px) {
+  .blog-title-summary {
+    margin-top: .2em; } }
+
+#mc_embed_signup h2, form h2 {
+  font-size: 3rem; }
+
 #footer #mc-embedded-subscribe {
   margin-top: 10px; }
 
-.mc-field-group {
-  width: 30%;
-  display: inline-block; }
+@media screen and (min-width: 727px) {
+  .mc-field-group {
+    width: 30%;
+    display: inline-block; } }
 
 .indicates-required {
   color: white; }

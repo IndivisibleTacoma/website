@@ -31,7 +31,11 @@
         }
     }
 }
-
+@media screen and (min-width:$medium-screen){
+    .mobile{
+        display:none;
+    }
+}
 //Blog---------------------------------
 .blog-page-title{
     margin-top:0;
@@ -50,11 +54,15 @@ p.tags{
         content: "#";
     }
 }
-.blog-post-title, .blog-title-summary{
+.blog-post-title{
     margin-top: $grid-margins/3;
-    font-size:3rem;
+    font-size:2.5rem;
 }
-
+.blog-title-summary{
+    font-size:2.5rem;
+    margin-bottom: 1em;
+    margin-top: .2em;
+}
 .published{
     @extend .small-gray;
 }
@@ -63,18 +71,35 @@ p.tags{
     display:none!important;
     margin:0!important;
 }
+
+@media screen and (max-width:$medium-screen){
+    .blog-title-summary{
+        margin-top: .2em;
+        
+    }
+}
+
+
 //Newsletter signup --------------------------------------
+
+#mc_embed_signup h2, form h2{
+    font-size:3rem;
+}
 #footer #mc-embedded-subscribe{
     margin-top:10px;
 }
+@media screen and (min-width:$medium-screen){
 .mc-field-group{
     width:30%;
     display:inline-block;
 }
+}
 .indicates-required{
     color:white;
 }
+
 @media screen and (min-width:$medium-screen){
+
     .usa-input-grid-small {
         float: left;
         width: 33%;

@@ -933,6 +933,7 @@
     <Content Include="Views\Parts.Title-BlogPost.cshtml" />
     <Content Include="Views\Parts.Title-Blog.cshtml" />
     <Content Include="Views\Parts.Title.Summary-BlogPost.cshtml" />
+    <Content Include="Views\Parts.Common.Metadata-BlogPost.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
