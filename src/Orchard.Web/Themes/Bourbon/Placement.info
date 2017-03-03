@@ -14,6 +14,44 @@
     <Place Parts_Common_Metadata="-"/>
   </Match>
 -->
+  <Match Path="/blog/*">
+    <Match ContentType="BlogPost" >
+      <Place
+        Parts_Common_Metadata="/LeftTwoThirds:1"
+        Parts_Title="/LeftTwoThirds:2"
+        Fields_MediaLibraryPicker="/LeftTwoThirds:3"
+        Parts_Common_Body="/LeftTwoThirds:4"
+        Parts_Tags_ShowTags="/LeftTwoThirds:5"
+        />
+    </Match>
+  </Match>
+  <Match Path="/blog">
+    <Match ContentType="BlogPost" >
+      <Place
+        Parts_Common_Metadata=""
+        Parts_Title="-"
+        Fields_MediaLibraryPicker="-"
+        Parts_Common_Body="-"
+        Parts_Tags_ShowTags="-"
+        Parts_Common_Metadata_Summary="/LeftTwoThirds:3"
+        Parts_Title_Summary="/LeftTwoThirds:3"
+        Parts_Common_Body_Summary="-"
+        />
+    </Match>
+  </Match>
+  <Match ContentType="Blog" >
+    <Place
+      Parts_Common_Metadata="-"
+      Parts_Title="/LeftTwoThirds:1"
+        />
+  </Match>
+  <Match ContentType="Image">
+    <Place
+      Parts_Common_Metadata="-"
+      DateTime="-"
+      Parts_Title="-"
+       />
+  </Match>
   <Match ContentType="Page">
       <Place 
         Parts_Common_Metadata="-"
@@ -56,15 +94,9 @@
         Fields_Common_Text="-"
        />
     </Match>
-    <Match ContentType="BlogPost">
-      <Place 
-        Parts_Tags_ShowTags="-"
-        Parts_Common_Metadata_Summary="-"
-        Fields_DateTime="-"
-       />
-    </Match>
+    
   </Match>
-  <Match ContentType="Blog">
+  <!--<Match ContentType="Blog">
       <Place
         Parts_Common_Metadata="-"
         Parts_Blogs_Blog_Description="-"
@@ -87,7 +119,7 @@
         Parts_Tags_ShowTags="Content:6"
       />
     </Match>
-  </Match>
+  </Match>-->
   <Match ContentType="FAQ">
     <Match DisplayType="Detail">
       <Place

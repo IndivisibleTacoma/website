@@ -21,8 +21,7 @@
 }
 
 .tagline{
-    color: $color-gray;
-    font-size: 14px;
+    @extend .small-gray;
     margin-top:4px;
 }
 
@@ -41,9 +40,6 @@ ul.menu-main-menu{
    padding-left:0;
    li{
        display:inline-block;
-       line-height:2em;
-       margin-right:0;
-      
        &:last-child{
            margin-right:0;
        }

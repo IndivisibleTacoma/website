@@ -108,9 +108,11 @@ $button-transistion-duration: 0.3s;     // The transition duration
  */
 
 .c-hamburger--htx {
-  background-color:$it-blue;
+  background-color:$alt-button-hover;
 }
-
+.c-hamburger--htx:hover {
+  background-color:$alt-button-color;
+}
 .c-hamburger--htx span {
   transition: background 0s $button-transistion-duration;
 }

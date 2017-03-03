@@ -928,6 +928,11 @@
     <Content Include="Content\css\fonts\Trenda-ThinIt.eot" />
     <Content Include="Content\css\fonts\Trenda-ThinIt.ttf" />
     <Content Include="Content\css\fonts\Trenda-ThinIt.woff" />
+    <Content Include="Views\Parts.Tags.ShowTags-BlogPost.cshtml" />
+    <Content Include="Views\Fields.MediaLibraryPicker-BlogPost-Media.cshtml" />
+    <Content Include="Views\Parts.Title-BlogPost.cshtml" />
+    <Content Include="Views\Parts.Title-Blog.cshtml" />
+    <Content Include="Views\Parts.Title.Summary-BlogPost.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,6 +1,10 @@
 ﻿@import "../custom/variables";
 @import '../custom/grid-settings';
 
+.small-gray{
+    font-size: 14px;
+    color: gray;
+}
 .navbar-brand > img{
     width:320px;
 }
@@ -28,6 +32,48 @@
     }
 }
 
+//Blog---------------------------------
+.blog-page-title{
+    margin-top:0;
+}
+ul.blog-posts li{
+    list-style-type:none;
+}
+p.tags{
+    margin-bottom:0;
+    line-height:1em;
+    & > a{
+        font-weight:bold;
+        font-size:14px;
+    }
+    & > a:before{
+        content: "#";
+    }
+}
+.blog-post-title, .blog-title-summary{
+    margin-top: $grid-margins/3;
+    font-size:3rem;
+}
+
+.published{
+    @extend .small-gray;
+}
+
+.dynchard-blogs #content{
+    display:none!important;
+    margin:0!important;
+}
+//Newsletter signup --------------------------------------
+#footer #mc-embedded-subscribe{
+    margin-top:10px;
+}
+.mc-field-group{
+    width:30%;
+    display:inline-block;
+}
+.indicates-required{
+    color:white;
+}
 @media screen and (min-width:$medium-screen){
     .usa-input-grid-small {
         float: left;
