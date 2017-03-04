@@ -8264,6 +8264,20 @@ p.tags {
   .blog-title-summary {
     margin-top: .2em; } }
 
+.calendar-container {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 20px; }
+
+.calendar-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 #mc_embed_signup h2, form h2 {
   font-size: 3rem; }
 
