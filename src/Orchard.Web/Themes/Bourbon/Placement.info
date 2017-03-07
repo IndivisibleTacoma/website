@@ -14,6 +14,28 @@
     <Place Parts_Common_Metadata="-"/>
   </Match>
 -->
+
+<Place
+  Parts_Title="-"
+  Parts_Common_Metadata="-"
+  />
+
+
+  <Match Path="/tags/*">
+    <Match ContentType="BlogPost" >
+      <Place
+        Parts_Common_Metadata=""
+        Parts_Title="-"
+        Fields_MediaLibraryPicker="-"
+        Parts_Common_Body="-"
+        Parts_Tags_ShowTags="-"
+        Parts_Common_Metadata_Summary="/LeftTwoThirds:3"
+        Parts_Title_Summary="/LeftTwoThirds:3"
+        Parts_Common_Body_Summary="-"
+        />
+    </Match>
+  </Match>
+  
   <Match Path="/blog/*">
     <Match ContentType="BlogPost" >
       <Place
@@ -40,12 +62,14 @@
         />
     </Match>
   </Match>
+  
   <Match ContentType="Blog" >
     <Place
       Parts_Common_Metadata="-"
       Parts_Title="/LeftTwoThirds:1"
         />
   </Match>
+  
   <Match ContentType="Image">
     <Place
       Parts_Common_Metadata="-"
@@ -53,74 +77,14 @@
       Parts_Title="-"
        />
   </Match>
-  <Match ContentType="Page">
-      <Place 
-        Parts_Common_Metadata="-"
-        Parts_Title="-"
-       />
-  </Match>
+
   <Match ContentType="Document">
     <Place
       Parts_Common_Metadata_Summary="-"
       Parts_Title_Summary="-"
        />
   </Match>
-  <Match ContentType="Resource">
-    <Place
-      Parts_Common_Metadata="-"
-      Fields_Numeric="-"
-      Fields_TaxonomyField="-"
-       />
-  </Match>
-  <Match ContentType="MeetingMaterials">
-    <Place
-      Parts_Common_Metadata="-"
-      Fields_DateTime="Content:1"
-      Parts_Common_Body="Content:2"
-       />
-  </Match>
-  <Match ContentType="Meeting">
-    <Place
-      Parts_Common_Metadata="-"
-      Fields_DateTime="Content:1"
-      Fields_Common_Text-Time="Content:2"
-      Fields_Link="Content:3"
-      Fields_Common_Text-Address="Content:4"
-      
-       />
-  </Match>
-  <Match Path="/">
-    <Match ContentType="MeetingMaterials">
-      <Place
-        Fields_Common_Text="-"
-       />
-    </Match>
-    
-  </Match>
-  <!--<Match ContentType="Blog">
-      <Place
-        Parts_Common_Metadata="-"
-        Parts_Blogs_Blog_Description="-"
-      />
-  </Match>
-  <Match ContentType="BlogPost">
-    <Match DisplayType="Summary">
-      <Place
-        Parts_Common_Metadata_Summary="-"
-        Parts_Tags_ShowTags="-"
-        Fields_DateTime="-"
-      />
-    </Match>
-  </Match>
-  <Match ContentType="BlogPost">
-    <Match DisplayType="Detail">
-      <Place
-        Parts_Common_Metadata="-"
-        Fields_DateTime="Content:2"
-        Parts_Tags_ShowTags="Content:6"
-      />
-    </Match>
-  </Match>-->
+
   <Match ContentType="FAQ">
     <Match DisplayType="Detail">
       <Place

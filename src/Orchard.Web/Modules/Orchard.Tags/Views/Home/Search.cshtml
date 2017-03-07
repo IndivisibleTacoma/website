@@ -5,6 +5,6 @@
     Model.List.Classes.Add("tagged-posts");
     Model.List.Classes.Add("content-items");
 }
-<h1 class="page-title">@T("Contents tagged with <span>{0}</span>", Model.TagName)</h1>
+<h1 class="page-title">@T("#<span>{0}</span>", Model.TagName)</h1>
 @Display(Model.List)
 @Display(Model.Pager)

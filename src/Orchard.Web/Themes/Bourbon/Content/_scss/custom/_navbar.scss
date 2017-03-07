@@ -43,6 +43,9 @@ ul.menu-main-menu{
        &:last-child{
            margin-right:0;
        }
+       & > a{
+           text-decoration:none;
+       }
        &.current, &:hover{
            
         & > a{
@@ -65,7 +68,7 @@ ul.menu-main-menu{
     ul.menu-main-menu{
          float:right;
          position: relative;
-         top: -22px;
+         top: -29px;
          & > li > a{
              padding: 0 0 0 26px;
          }

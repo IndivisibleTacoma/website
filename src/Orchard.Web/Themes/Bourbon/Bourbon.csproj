@@ -144,6 +144,7 @@
     <Content Include="Content\img\arrow-down.svg" />
     <Content Include="Content\img\arrow-right.png" />
     <Content Include="Content\img\arrow-right.svg" />
+    <Content Include="Content\img\arrow.svg" />
     <Content Include="Content\img\browserconfig.xml" />
     <Content Include="Content\img\favicon-16x16.png" />
     <Content Include="Content\img\favicon-32x32.png" />
@@ -159,6 +160,9 @@
     <Content Include="Content\img\favicons\favicon.png" />
     <Content Include="Content\css\img\lightbox-btn-next.gif" />
     <Content Include="Content\css\img\lightbox-btn-prev.gif" />
+    <Content Include="Content\img\IndivTac_WorkingGroups_v2.svg" />
+    <Content Include="Content\img\IndivTac_WorkingGroups_v4.svg" />
+    <Content Include="Content\img\IndivTac_WorkingGroups_v5.svg" />
     <Content Include="Content\img\minus.png" />
     <Content Include="Content\img\minus.svg" />
     <Content Include="Content\img\mstile-150x150.png" />
@@ -934,6 +938,7 @@
     <Content Include="Views\Parts.Title-Blog.cshtml" />
     <Content Include="Views\Parts.Title.Summary-BlogPost.cshtml" />
     <Content Include="Views\Parts.Common.Metadata-BlogPost.cshtml" />
+    <Content Include="Views\Widget-Name-groups.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -32,5 +32,20 @@ $(window).resize(function () {
 
 })();
 
+//var parser = document.createElement('a');
+
+//parser.href = window.location.href;
+
+//var urlarray = parser.pathname.split("/");
+
+//console.log(urlarray[0]);
+
+var pathArray = window.location.pathname.split('/');
+
+var secondLevelLocation = pathArray[1];
+
+if (secondLevelLocation == "blog") {
+    $("ul.menu-main-menu > li:nth-of-type(2)").addClass("current");
+}
 
 
