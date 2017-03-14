@@ -225,7 +225,9 @@
     <Content Include="Styles\Web.config" />
     <Content Include="Content\Web.config" />
     <Content Include="Theme.png" />
-    <Content Include="Placement.info" />
+    <Content Include="Placement.info">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Orchard\Orchard.Framework.csproj">
@@ -939,6 +941,9 @@
     <Content Include="Views\Parts.Title.Summary-BlogPost.cshtml" />
     <Content Include="Views\Parts.Common.Metadata-BlogPost.cshtml" />
     <Content Include="Views\Widget-Name-groups.cshtml" />
+    <Content Include="Views\Fields.DateTime-DailyAction-Date.cshtml" />
+    <Content Include="Views\Parts.Title-DailyAction.cshtml" />
+    <Content Include="Views\Fields.Common.Text-DailyAction-Script.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

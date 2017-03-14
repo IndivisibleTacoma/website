@@ -131,3 +131,11 @@ html.orchard-tags article.blog-post:first-of-type {
         padding-top:$grid-margins/2;
     }
 }
+//recaptcha fix
+.recaptchatable, #recaptcha_area tr, #recaptcha_area td, #recaptcha_area th {
+        line-height: 0 !important;
+}
+#recaptcha_area input {
+    height: auto;
+    display: inline;
+}

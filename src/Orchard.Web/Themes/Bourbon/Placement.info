@@ -20,11 +20,30 @@
   Parts_Common_Metadata="-"
   />
 
-
+  <Match ContentType="DailyAction" >
+    <Place
+      Fields_DateTime-Date="Content:1"
+      Parts_Title_Summary="Content:2"
+      Parts_Common_Body_Summary="-"
+      Parts_Common_Metadata_Summary="-"
+      Fields_Common_Text-Script="-"
+        />
+  </Match>
+  <Match Path="/daily-action/*">
+    <Match ContentType="DailyAction" >
+      <Place
+        Fields_DateTime-Date="/LeftTwoThirds:1"
+       Parts_Title="/LeftTwoThirds:2"
+       Parts_Common_Body="/LeftTwoThirds:3"
+       Parts_Title_Summary="-"
+       Fields_Common_Text-Script="/LeftTwoThirds:4"
+      />
+    </Match>
+  </Match>
   <Match Path="/tags/*">
     <Match ContentType="BlogPost" >
       <Place
-        Parts_Common_Metadata=""
+        Parts_Common_Metadata="-"
         Parts_Title="-"
         Fields_MediaLibraryPicker="-"
         Parts_Common_Body="-"

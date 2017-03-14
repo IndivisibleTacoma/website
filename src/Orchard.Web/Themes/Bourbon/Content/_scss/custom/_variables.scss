@@ -388,6 +388,8 @@ $it-lightblue: #1e5ca8;
 $it-red: #d52628;
 $it-red-hover:#bd2b2d;
 $it-blue: #1a325d;
+$it-gray: gray;
+$it-lightgray: #dcdcdc;
 /*header and footer backgrounds*/
 
 $section-base-top: white; /*#f1f1f1;*/ 
@@ -430,9 +432,9 @@ $base-font-size:      rem(17px);
 $small-font-size:     rem(14px);
 $lead-font-size:      rem(20px);
 $title-font-size:     rem(52px);
-$h1-font-size:        rem(35px);
-$h1-mobile-size:      rem(35px); 
-$h1-widget-font-size: rem(35px);
+$h1-font-size:        rem(30px);
+$h1-mobile-size:      rem(30px); 
+$h1-widget-font-size: rem(30px);
 $h1-widget-mobile-font-size: rem(28px);
 $h2-font-size:        rem(22px);
 $h3-font-size:        rem(20px);
@@ -442,10 +444,12 @@ $h6-font-size:        rem(13px);
 $base-line-height:    1.5;
 $heading-line-height: 1.3;
 $lead-line-height:    1.7;
+$lead:                rem(20px);
 
 $font-sans:           'San Francisco Text', 'Helvetica', 'Arial', sans-serif; 
 $font-sans-light:     'San Francisco Text', 'Helvetica', 'Arial', sans-serif;
 $font-sans-bold:      'San Francisco Text', 'Helvetica', 'Arial', sans-serif;
+$font-sans-display:    'San Franscisco Display', 'Helvetica', 'Arial', sans-serif;
 $font-sans-heavy:     'glacial_indiffrencebold', 'Helvetica', 'Arial', sans-serif;
 $font-sans-heading:   'Trenda', 'Helvetica', 'Arial', sans-serif;
 $font-sans-subheading: 'Trenda', 'Helvetica', 'Arial', sans-serif;
@@ -453,7 +457,7 @@ $font-sans-italic:    'San Francisco Text', 'Helvetica', 'Arial', sans-serif;
 $font-serif:          'Merriweather', 'Georgia', 'Times New Roman', serif;
 
 $font-normal:         400;
-$font-bold:           700; 
+$font-bold:           600; 
 
 // Magic Numbers
 $text-max-width:    53rem;
