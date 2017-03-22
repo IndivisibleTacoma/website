@@ -1,23 +1,4 @@
-﻿<header>
-    <h1 class="page-title">Fight the Trump agenda</h1>
-</header>
-<ol class="lead">
-    <li><strong>Read the <a href="https://www.indivisibleguide.com/" target="_blank">Indivisible Guide</a>.</strong></li>
-    <li><strong>Take local action every day.</strong> Return here each week day for a <a href="/daily-actions">new local action</a>.</li>
-    <li><strong>Take national action every day.</strong></li>
-    <ul>
-        <li>Sign up for daily text alerts at <a href="https://dailyaction.org/" target="_blank">dailyaction.org</a>, or text the word DAILY to the number 228466 (A-C-T-I-O-N).</li>
-        <li>Install the <a href="https://5calls.org/" target="_blank">5calls</a> app on your phone.</li>
-    </ul>
-    <li><strong>Attend the Indivisible Tacoma Wednesday General Meeting.</strong> For more information, visit the <a href="/events">events</a> page.</li>
-    <li><strong>Join an Indivisible Tacoma working group.</strong></li>
-    <ul>
-        <li>To join a working group, first join the <a href="https://www.facebook.com/groups/1427554560611588/" target="_blank">Indivisible Tacoma Community group</a>. From the community group, you can access individual working groups.</li>
-        <li>Note: if your Facebook settings are set to private and our administrator cannot view your Facebook page, the administrator will attempt to direct message you, so if you apply and don't hear back, be sure to check your message requests.</li>
-    </ul>
-    @*<li><strong>Join an Indivisible Tacoma working group.</strong>To apply, click the <img class="arrow" src="/Themes/Bourbon/Content/img/arrow.svg" alt="symbol" /> symbol next to the topic that most interests you below.</li>*@
-</ol>
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
     <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
     <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 632 632" enable-background="new 0 0 632 632" xml:space="preserve" width="100%">

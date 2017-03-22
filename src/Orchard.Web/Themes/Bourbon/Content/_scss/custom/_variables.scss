@@ -387,9 +387,10 @@ $color-visited:              #4c2c92;
 $it-lightblue: #1e5ca8;
 $it-red: #d52628;
 $it-red-hover:#bd2b2d;
+$it-lightred: #f7c0c0;
 $it-blue: #1a325d;
 $it-gray: gray;
-$it-lightgray: #dcdcdc;
+$it-lightgray: #ededed;
 /*header and footer backgrounds*/
 
 $section-base-top: white; /*#f1f1f1;*/ 
@@ -418,6 +419,7 @@ $subheading-color: #333!default;//subheading color
 /*links*/
 $link-color:  $it-blue!default;//link color
 $base-text: #333 !default;
+$dashed-border: 3px dashed $it-red;
 /*---------------------------------------------------
 ----------------------------------------------------*/ 
 

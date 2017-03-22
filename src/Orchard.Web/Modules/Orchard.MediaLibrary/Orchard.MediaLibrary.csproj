@@ -24,6 +24,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -75,6 +76,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Controllers\OEmbedController.cs" />
     <Content Include="Scripts\knockout-2.3.0.js" />
     <Content Include="Scripts\media-library.js" />
     <Content Include="Scripts\modal-window.js" />
@@ -126,7 +128,7 @@
     <Compile Include="AdminMenu.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ClientStorageController.cs" />
-    <Compile Include="Controllers\OEmbedController.cs" />
+    <Content Include="Controllers\OEmbedController.txt" />
     <Compile Include="Controllers\FolderController.cs" />
     <Compile Include="Controllers\WebSearchController.cs" />
     <Compile Include="Drivers\AudioPartDriver.cs" />
@@ -302,7 +304,7 @@
     <Content Include="Views\Parts\Video.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\OEmbed\Index.cshtml" />
+    <None Include="Views\OEmbed\Index.txt2" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Parts\OEmbed.cshtml" />
@@ -317,7 +319,7 @@
     <Content Include="Views\Parts\OEmbed.SummaryAdmin.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Media-OEmbed.Thumbnail.cshtml" />
+    <Content Include="Views\1Media-OEmbed.Thumbnail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\EditorTemplates\Parts\WebSearch.WebSearchSettings.cshtml" />

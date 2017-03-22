@@ -45,7 +45,8 @@ var pathArray = window.location.pathname.split('/');
 var secondLevelLocation = pathArray[1];
 
 if (secondLevelLocation == "blog") {
-    $("ul.menu-main-menu > li:nth-of-type(2)").addClass("current");
+    $("ul.menu-main-menu > li.current").removeClass("current");
+    $("ul.menu-main-menu > li:nth-of-type(3)").addClass("current");
 }
 
 

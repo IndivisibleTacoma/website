@@ -190,6 +190,7 @@
     <Content Include="Content\img\social-icons\svg\youtube15.svg" />
     <Content Include="Content\img\us_flag_small.png" />
     <Content Include="Content\img\weblogo.svg" />
+    <Content Include="Content\img\workinggroupsvg.txt" />
     <Content Include="Content\js\components.js" />
     <Content Include="Content\js\vendor\html5shiv.js" />
     <Content Include="Content\js\vendor\jquery-1.11.3.min.js" />
@@ -939,11 +940,13 @@
     <Content Include="Views\Parts.Title-BlogPost.cshtml" />
     <Content Include="Views\Parts.Title-Blog.cshtml" />
     <Content Include="Views\Parts.Title.Summary-BlogPost.cshtml" />
-    <Content Include="Views\Parts.Common.Metadata-BlogPost.cshtml" />
-    <Content Include="Views\Widget-Name-groups.cshtml" />
     <Content Include="Views\Fields.DateTime-DailyAction-Date.cshtml" />
     <Content Include="Views\Parts.Title-DailyAction.cshtml" />
     <Content Include="Views\Fields.Common.Text-DailyAction-Script.cshtml" />
+    <Content Include="Views\Parts.Common.Body.Summary-BlogPost.cshtml" />
+    <Content Include="Views\Widget-Name-homedailyaction.cshtml" />
+    <Content Include="Views\Parts.Image-Image.cshtml" />
+    <Content Include="Views\Parts.OEmbed-OEmbed.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
