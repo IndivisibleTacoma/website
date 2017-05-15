@@ -83,49 +83,23 @@
       <Place
         Parts_Common_Metadata=""
         Parts_Title="-"
-        Fields_MediaLibraryPicker="-"
         Parts_Common_Body="-"
         Parts_Tags_ShowTags="-"
-        Parts_Common_Metadata_Summary="/LeftTwoThirds:8"
-        Parts_Title_Summary="/LeftTwoThirds:8"
-        Parts_Common_Body_Summary="-"
-        Fields_Boolean="-"
-        />
-    </Match>
-  </Match>
-  
-  <Match Path="/blog-summary">
-    <Match ContentType="BlogPost" >
-      <Match DisplayType="Detail" >
-      <Place
-        Parts_Common_Metadata="Content:1"
-        Parts_Title="Content:2"
         Fields_MediaLibraryPicker="Content:3"
+        Parts_Title_Summary="Content:2"
+        Parts_Common_Metadata_Summary="Content:1"
+        Parts_Common_Body_Summary="Content:4"
         Fields_Boolean="-"
-        Parts_Tags_ShowTags="Content:10"
         />
-      </Match>
     </Match>
   </Match>
 
-  <Match Path="/blog-summary">
-    <Match ContentType="BlogPost" >
-      <Match DisplayType="Summary" >
-        <Place
-           Parts_Common_Metadata=""
-           Parts_Title="-"
-           Fields_MediaLibraryPicker="-"
-           Parts_Common_Body="-"
-           Parts_Tags_ShowTags="-"
-           Parts_Common_Metadata_Summary="Content:1"
-           Parts_Title_Summary="Content:2"
-           Parts_Common_Body_Summary="-"
-           Fields_Boolean="-"
+    <Match ContentType="Documentation" >
+      <Place
+        Fields_TaxonomyField=""
+        Parts_Title="-"
         />
-      </Match>
     </Match>
-  </Match>
-  
   
   <Match ContentType="Image">
     <Place
